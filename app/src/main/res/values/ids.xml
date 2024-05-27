@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvDoctorName" type="id" />
+    <item name="tvSpecialty" type="id" />
+    <item name="tvCertified" type="id" />
+</resources>

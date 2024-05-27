@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/etSpecialty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Specialty" />
+
+    <Switch
+        android:id="@+id/switchCertified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Certified" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnViewDoctors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Doctors" />
+
+</LinearLayout>
